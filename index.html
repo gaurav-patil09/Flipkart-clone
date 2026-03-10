@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLIPKART</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img style=" height: 40px;" src="fliplogo.svg">
+        </div>
+        <div class="search-bar">
+            <button class="Search-btn"><img src="search__1_-removebg-preview.png" height="21px"></button>
+            <input type="text" placeholder="Search for Products , Brands and More">
+        </div>
+        <div class="nav-items">
+            <div class="dropdown">
+                <button class="dropbtn1">
+                    <img src="human_icon-removebg-preview.png" alt="user" class="icon"> Login <img src="arrowa.svg"
+                        class="icon"></button>
+                <div class="dropdown-content">
+                    <a href="#">
+                        <img src="human_icon-removebg-preview.png" alt="" class="icon">My Profile</a>
+                    <a href="#">
+                        <img src="flipzone.svg" alt="" class="icon">Flipkart Plus Zone</a>
+                    <a href="#">
+                        <img src="orders-lo.svg" alt="" class="icon">Orders</a>
+                    <a href="#">
+                        <img src="whish lo.svg" alt="" class="icon">Wishlist</a>
+                    <a href="#">
+                        <img src="rewards-lo.svg" alt="" class="icon">Rewards</a>
+                    <a href="#">
+                        <img src="giftCard-lo.svg" alt="" class="icon">Gift Cards</a>
+                </div>
+            </div>
+            <a href="#">
+                <img src="shopping-cart-removebg-preview.png" alt="user" class="icon"><span>Cart</span></a>
+            <a href="#">
+                <img src="shopa.svg" alt="user" class="icon"> <span>Become a Seller</span></a>
+            <div class="dropdown">
+                <div class="dropdown right">
+                    <button class="dropbtn">
+                        <img src="three-dots-removebg-preview.png" alt="" class="icon">
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">
+                            <img src="no dot.svg" alt="" class="icon">Notification Preferences</a>
+                        <a href="#">
+                            <img src="helh no.svg" alt="" class="icon">24×7 Coustomer Care</a>
+                        <a href="#">
+                            <img src="advertise-no.svg" alt="" class="icon">Advertise</a>
+                        <a href="#">
+                            <img src="downloadApp-do.svg" alt="" class="icon">Download App</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navigation">
+        <div class="box1">
+            <a href="" class="navlink">
+                <img src="scooter.webp" alt="">
+                <span>Minutes</span>
+            </a>
+        </div>
+        <div class="box1">
+            <a href="" class="navlink">
+                <img src="mobilenav.png" alt="">
+                <span>Mobile & Tablets</span>
+            </a>
+        </div>
+        <div class="box1">
+            <a href="" class="navlink">
+                <img src="boygirlnav.webp" alt="">
+                <span>Fashion</span>
+            </a>
+        </div>
+        <div class="box1">
+            <a href="" class="navlink">
+                <img src="4nav.png" alt="">
+                <span>Electronics</span>
+            </a>
+        </div>
+        <div class="box1">
+            <a href="" class="navlink">
+                <img src="5nav.webp" alt="">
+                <span>Home & Furniture</span>
+            </a>
+        </div>
+        <div class="box1">
+            <a href="" class="navlink">
+                <img src="6nav.webp" alt="">
+                <span>TVs & Appliances</span>
+            </a>
+        </div>
+        <div class="box1">
+            <a href="" class="navlink">
+                <img src="7nav.webp" alt="">
+                <span>Flight Bookings</span>
+            </a>
+        </div>
+        <div class="box1">
+            <a href="" class="navlink">
+                <img src="8nav.webp" alt="">
+                <span>Beauty,Food..</span>
+            </a>
+        </div>
+        <div class="box1">
+            <a href="" class="navlink">
+                <img src="9nav.webp" alt="">
+                <span>Grocery</span>
+            </a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="content1">
+            <img id="banner" src="img banner4.webp" alt="">
+            <button class="banner-btn left" onclick="prevSlide()"><</button>
+            <button class="banner-btn right" onclick="nextSlide()">></button>
+            <div class="dots">
+                <span class="dot active" onclick="goToSlide(0)"></span>
+                <span class="dot" onclick="goToSlide(1)"></span>
+                <span class="dot" onclick="goToSlide(2)"></span>
+                <span class="dot" onclick="goToSlide(3)"></span>
+            </div>
+        </div>
+        <div class="content2">
+            <div class="head">
+                <h2>Top Deals</h2>
+            </div>
+            <div class="boxes">
+                <div class="box2">
+                    <a class="products" data-id="1">
+                        <img src="camcon2.webp" alt="">
+                        <span>Projector</span>
+                        <span class="price">From ₹6990</span>
+                    </a>
+                </div>
+                <div class="box2">
+                    <a class="products" data-id="2">
+                        <img src="spicon2.webp" alt="">
+                        <span>Best Selling Mobile..</span>
+                        <span class="price">From ₹499</span>
+                    </a>
+                </div>
+                <div class="box2">
+                    <a class="products" data-id="3">
+                        <img src="tvcon2.webp" alt="">
+                        <span>Monitor</span>
+                        <span class="price">From ₹6599</span>
+                    </a>
+                </div>
+                <div class="box2">
+                    <a class="products" data-id="4">
+                        <img src="tv2con2.webp" alt="">
+                        <span>Monitor</span>
+                        <span class="price">From ₹8279</span>
+                    </a>
+                </div>
+                <div class="box2">
+                    <a class="products" data-id="5">
+                        <img src="cam2con2'.webp" alt="">
+                        <span>Top Mirrorless Cam..</span>
+                        <span class="price">Shop Now!</span>
+                    </a>
+                </div>
+                <div class="box2">
+                    <a class="products" data-id="6">
+                        <img src="wacon2.webp" alt="">
+                        <span>Fastrack Smartwatch</span>
+                        <span class="price">From ₹6990</span>
+                    </a>
+                </div>
+                <div class="box2">
+                    <a class="products" data-id="7">
+                        <img src="earbirds.webp" alt="">
+                        <span>Best Truewireless H..</span>
+                        <span class="price">Grab Now</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="content2">
+            <div class="head">
+                <h2>Top Products for you</h2>
+            </div>
+            <div class="boxes">
+                <div class="box2">
+                    <a class="products" data-id="125">
+                        <img src="cycon3.webp" alt="">
+                        <span>Geared Cycles</span>
+                        <span class="price">Up To 70% Off</span>
+                    </a>
+                </div>
+                <div class="box2">
+                    <a class="products" data-id="8">
+                        <img src="stacon3.webp" alt="">
+                        <span>Top Selling Stati..</span>
+                        <span class="price">From ₹49</span>
+                    </a>
+                </div>
+                <div class="box2">
+                    <a class="products" data-id="9">
+                        <img src="cacon3.webp" alt="">
+                        <span>Remote Control T.</span>
+                        <span class="price">Up To 80% Off</span>
+                    </a>
+                </div>
+                <div class="box2">
+                    <a class="products" data-id="10">
+                        <img src="drycon3.webp" alt="">
+                        <span>Projector</span>
+                        <span class="price">Up To 70% Off</span>
+                    </a>
+                </div>
+                <div class="box2">
+                    <a class="products" data-id="11">
+                        <img src="tocon3.webp" alt="">
+                        <span>Projector</span>
+                        <span class="price">Up To 70% Off</span>
+                    </a>
+                </div>
+                <div class="box2">
+                    <a class="products" data-id="12">
+                        <img src="focon3.webp" alt="">
+                        <span>Projector</span>
+                        <span class="price">Up To 70% Off</span>
+                    </a>
+                </div>
+                <div class="box2">
+                    <a class="products" data-id="13">
+                        <img src="botocon3.webp" alt="">
+                        <span>Projector</span>
+                        <span class="price">Up To 70% Off</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="content2">
+            <div class="head">
+                <h2>Mobiles</h2>
+            </div>
+            <div class="boxes">
+                <div class="box2">
+                    <a class="products" data-id="14">
+                        <img src="mo3con4.webp" alt="">
+                        <span>Google Pixel 10</span>
+                        <span class="price">Just ₹79,999</span>
+                    </a>
+                </div>
+                <div class="box2">
+                    <a class="products" data-id="15">
+                        <img src="mo2con4.webp" alt="">
+                        <span>Samsung GalaxyS25</span>
+                        <span class="price">Just ₹68,999</span>
+                    </a>
+                </div>
+                <div class="box2">
+                    <a class="products" data-id="16">
+                        <img src="mocon4.webp" alt="">
+                        <span>Nothing Phone(3a)</span>
+                        <span class="price">Just ₹22,999</span>
+                    </a>
+                </div>
+                <div class="box2">
+                    <a class="products" data-id="126">
+                        <img src="mo4co4.webp" alt="">
+                        <span>Oppo k13x 5G</span>
+                        <span class="price">Just ₹10,749</span>
+                    </a>
+                </div>
+                <div class="box2">
+                    <a class="products" data-id="122">
+                        <img src="mo5co4.webp" alt="">
+                        <span>Realme P3x </span>
+                        <span class="price">Just ₹12,999</span>
+                    </a>
+                </div>
+                <div class="box2">
+                    <a class="products" data-id="123">
+                        <img src="mo6co4.webp" alt="">
+                        <span>Vivo T4 LIte 5G</span>
+                        <span class="price">From ₹9,999</span>
+                    </a>
+                </div>
+                <div class="box2">
+                    <a class="products" data-id="121">
+                        <img src="mo7co4.webp" alt="">
+                        <span>Nothing P..(3a) Pro</span>
+                        <span class="price">Just ₹31,999</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="para">
+            <div class="para1">
+                <h2>Top Stories: Brand Direcory</h2>
+                <p>
+                <h3>MOST</h3>
+                </p>
+            </div>
+            <div class="para2">
+                <h1 style="padding: 10px;">Flipkart: India's Ultimate One-Stop Online Shopping Destination</h1>
+                <p>to Flipkart, India's trusted and beloved e-commerce platform, revolutionising online
+                shopping
+                since 2007. With over 200 million users, 150 million+ products across 80+ categories, and a
+                relentless
+                focus on customer satisfaction, Flipkart isn't just an online store; it's your digital shopping
+                companion. Be it the Flipkart app or the comprehensive Flipkart website, discover an unmatched
+                universe
+                of products, incredible Flipkart offers, blockbuster Flipkart sale events, and seamless service.
+                From
+                the latest gadgets to daily groceries, fashion must-haves to furniture solutions, Flipkart is your
+                definitive destination for e-commerce in India, offering convenience, value, and reliability at
+                every
+                click. Experience the joy of buying online with India's homegrown leader!</p>
+
+                <h2 style="margin-top: 10px;">What Can You Buy from Flipkart?</h2>
+                <p style="margin-bottom: 10px;">Flipkart's strength lies in its incredible diversity. With offerings
+                    for
+                    every need, aspiration, and
+                    budget, you can dive into the meticulously curated categories for your needs:</p>
+
+                <p style="margin-bottom: 10px;"><strong>Mobile and Electronics:</strong> Flipkart has a wide range
+                    of
+                    mobiles with advanced features and
+                    the latest technology. As a leading e-commerce platform, we offer all the latest models from top
+                    brands.
+                    Explore the newest flagships from Samsung, Apple, OnePlus, Xiaomi, Vivo, Oppo, and more. Find
+                    budget-friendly, 5G powerhouses, gaming phones, and refurbished options. Additionally, Flipkart
+                    Complete
+                    Mobile Protection offers comprehensive coverage for post-purchase issues, including door-to-door
+                    services. Complement your device with extensive accessories: durable, screen protectors, fast
+                    chargers, power banks, wireless
+                </p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="foot1">
+                <div class="foot1-left">
+                    <div class="foot1-column">
+                        <div class="foname">ABOUT</div>
+                        <a href="">Contact Us</a>
+                        <a href="">About Us</a>
+                        <a href="">Careers</a>
+                        <a href="">Flipkart Stories</a>
+                        <a href="">Press</a>
+                        <a href="">Corporate Information</a>
+                    </div>
+                    <div class="foot1-column">
+                        <div class="foname">GROUP COMPANIES</div>
+                        <a href="">Myntra</a>
+                        <a href="">Cleantrip</a>
+                        <a href="">Shopsy</a>
+                    </div>
+                    <div class="foot1-column">
+                        <div class="foname">HELP</div>
+                        <a href="">Payments</a>
+                        <a href="">Shippingf</a>
+                        <a href="">Cancellation & Returns</a>
+                        <a href="">FAQ</a>
+                    </div>
+                    <div class="foot1-column">
+                        <div class="foname">CONSUMER POLICY</div>
+                        <a href="">Cancellation & Returns</a>
+                        <a href="">Terms Of Use</a>
+                        <a href="">security</a>
+                        <a href="">Privacy</a>
+                        <a href="">Sitemap</a>
+                        <a href="">ERP Compliance</a>
+                    </div>
+                </div>
+                <div class="foot1-right">
+                    <div class="foot1-column">
+                        <div class="foname">Mail Us:</div>
+                        <p>Flipkart Internet Private Limited,<br>
+                            Buildings Alyssa, Begonia <br>
+                            Clove Embassy Tech Village,<br>
+                            Outer Ring Road, Devarabeesanahalli Village, <br>
+                            Bengaluru, 560103, <br>
+                            Karnataka, India
+                        </p>
+                    </div>
+                    <div class="foot1-column">
+                        <div class="foname">Registered Office Address:</div>
+                        <p>Flipkart Internet Private Limited,<br>
+                            Buildings Alyssa, Begonia <br>
+                            Clove Embassy Tech Village,<br>
+                            Outer Ring Road, Devarabeesanahalli Village, <br>
+                            Bengaluru, 560103, <br>
+                            Karnataka, India <br>
+                            CIN : U51109KA2012PTC066107 <br>
+                            Telephone : <a href="">044-45614700</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="foot2">
+                <a href="">
+                    <img src="bebo.svg" alt="Become a Seller" class="icon2">Become a Seller</a>
+                <a href="">
+                    <img src="abo.svg" alt="Advertise" class="icon2">Advertise</a>
+                <a href="">
+                    <img src="gibo.svg" alt="Gifts Cards" class="icon2">Gifts Cards</a>
+                <a href="">
+                    <img src="hebo.svg" alt="Help Center" class="icon2">Help Center</a>
+                <span style="font-size: 13px; color: white; cursor: pointer;">© 2007-2025 Flipkart.com</span>
+                <img src="paymentbo.svg" alt="paymentbo">
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
