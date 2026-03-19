@@ -52,10 +52,10 @@ document.addEventListener("DOMContentLoaded",()=>{
 
 });
 const images = [
-  "img banner4.webp",
- "img banner 5.webp",
-  "img banner 6.webp",
-  "img banner7.webp" 
+  "/svg's & img's/img banner4.webp",
+ "/svg's & img's/img banner 5.webp",
+  "/svg's & img's/img banner 6.webp",
+  "/svg's & img's/img banner7.webp" 
 ];
 
 let currentIndex=0;
