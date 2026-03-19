@@ -92,7 +92,6 @@ html,body{
 }
 .dropbtn1:hover{
     background-color: #2A55E5;
-    
 }
 .dropbtn{
     color: black;
@@ -196,7 +195,7 @@ html,body{
     height: 90%;
    width: 100%;
    object-fit: cover; 
-    display: block; 
+    display: block;
     transition: opacity 0.5s ease;
 } 
 .banner-btn{
@@ -319,7 +318,6 @@ display: none;
     justify-content: space-between;
     flex-wrap: wrap;
     padding:40px 40px 40px 40px;
-
 }
 .foname{
     color: #878787;
@@ -357,7 +355,6 @@ display: none;
     display: inline;
     color: #2874f0;
 }
-
 .foot2{
     border-top: 1px solid #454d5e; 
     height:20%;
